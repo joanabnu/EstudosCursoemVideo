@@ -1,38 +1,31 @@
 @charset "UTF-8";
 
-/* Height = Altura  conteúdo. 
-   width = Largura da  conteúdo.
-   border = Linha que circula o seu conteúdo. 
-   padding = Espaço entre a bordar e conteúdo. 
-   Margin = Espaço externo do conteúdo. 
-   outline = contorno ou traçado.
-   box-level = (div,h1 - h6,p,main,header,nav,article,aside,footer,form,video) Ele sempre se inicia numa linha nova e ele sempre ocupa a largura total da tela.
-   inline - level = (span,a, code,small,strong,em,sup-sub,label,button,input,select) Ele nao vai para proxima linha, ele nao quebra a linha, ele ocupa o tamanho 
-   que precisa e depois dá continuidade ao conteúdo na mesma linha. 
-   */
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-image: linear-gradient(to right, #C4FFF9, #9CEAEF, #68D8D6, #3DCCC7, #07BEB8);
+    background-image: linear-gradient(to right, #B458CF, #A33ECF, #9324D0, #820AD1);
 }
 
 main {
     background-color: white;
     border-radius: 10px;
-    box-shadow: 5px 5px 15px rgb(25, 148, 193);
+    box-shadow: 5px 5px 15px rgb(177, 125, 212);
     width: 820px;
     padding: 10px;
     margin: auto;
 }
 
 h1 {
-    color: #616efc;
+    color: #820AD1;
     text-align: center;
-
-    text-shadow: 1px 1px 2px rgb(67, 88, 1);
+    text-shadow: 2px 3px 5px rgb(208, 165, 253);
 }
+h2{
+    margin: 5px;
+    padding: 5px;
+} 
 
 a {
     color: blue;
@@ -43,4 +36,8 @@ a {
 a:visited {
     color: rgb(230, 241, 28);
     text-decoration: underline;
+}
+p{
+    margin: 5px;
+    padding: 5px;
 }
