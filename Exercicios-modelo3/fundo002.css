@@ -1,0 +1,5 @@
+body{
+    background-image: url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+     background-repeat: repeat-x; /*repete x - fica horozontal e repete y fica vertical */
+    background-size: 100px 100px;
+}
