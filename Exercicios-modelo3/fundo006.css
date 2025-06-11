@@ -16,8 +16,8 @@ main{
     background-color: white;
     max-width: 400px;
     padding: 10px;
-    margin: auto;
+   margin: auto;
     border: 1px solid darkblue;
     border-radius: 15px;
-
+   
 }
