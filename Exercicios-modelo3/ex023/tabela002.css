@@ -13,3 +13,7 @@ thead, tfoot{
     background-color: gray;
     color: aliceblue;
 }
+td.num{
+    text-align: right;
+
+}
