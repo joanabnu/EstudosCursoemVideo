@@ -4,6 +4,7 @@ body{
 table{
     width: 500px;
     border-collapse: collapse;
+    position: relative ;
 }
 td,th{
     border: 1px solid black;
@@ -17,7 +18,12 @@ td.num{
     text-align: right;
 
 }
- tbody > tr:nth-child(2n){   /*odd ou even*/
+thead > tr >th{
+ position: sticky;
+ top: -1px;
+ background-color: #383838;
+}
+ tbody > tr:nth-child(2n){   /*odd  ou even*/
     background-color: lightgray;
 }
 caption{
