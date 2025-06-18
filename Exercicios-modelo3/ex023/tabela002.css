@@ -17,7 +17,7 @@ td.num{
     text-align: right;
 
 }
-tbody > tr:nth-child(2n){
+ tbody > tr:nth-child(2n){   /*odd ou even*/
     background-color: lightgray;
 }
 caption{
