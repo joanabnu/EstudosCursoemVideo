@@ -17,6 +17,9 @@ td.num{
     text-align: right;
 
 }
+tbody > tr:nth-child(2n){
+    background-color: lightgray;
+}
 caption{
     font-size: 1.5em;
     font-weight: bold;
