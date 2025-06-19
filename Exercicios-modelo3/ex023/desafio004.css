@@ -9,7 +9,7 @@ table{
 th,td{
     border: 1px solid black;
     border-radius: 7px;
-    box-shadow: 1px 1px 1px blue;
+    box-shadow: 1px 1px 1px rgb(216, 180, 17);
 }
 .principal{
     background-color: lightblue;
